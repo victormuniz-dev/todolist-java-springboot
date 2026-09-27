@@ -115,7 +115,7 @@ Este projeto foi desenvolvido durante o minicurso prático **Java com Spring Boo
 **Exemplo de Corpo da Requisição (`POST /task/`):**
 ```json
 {
-  "description": "Implementar integração do LangChain no Agents4Good",
+  "description": "Implementar integração do LangChain",
   "title": "Estudar Sistemas Agênticos",
   "startAt": "2026-10-01T08:00:00",
   "endAt": "2026-10-01T18:00:00",
