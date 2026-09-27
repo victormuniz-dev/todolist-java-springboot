@@ -28,11 +28,15 @@ public class UserModel {
        return username;
     }
 
-    String getPassword() {
+    public String getPassword() {
         return password;
     }
 
     void setPassword(String passwordHashred) {
        this.password = passwordHashred;
+    }
+
+    public UUID getId() {
+        return id;
     }
 }

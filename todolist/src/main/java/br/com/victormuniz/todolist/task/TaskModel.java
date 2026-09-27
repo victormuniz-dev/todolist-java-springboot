@@ -29,4 +29,8 @@ public class TaskModel {
     private LocalDateTime createAt;
 
     private UUID idUser; 
+
+    public void setIdUser(UUID idUser) {
+        this.idUser = idUser;
+    }
 }
