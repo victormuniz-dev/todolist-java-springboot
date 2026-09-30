@@ -33,4 +33,12 @@ public class TaskModel {
     public void setIdUser(UUID idUser) {
         this.idUser = idUser;
     }
+
+    public LocalDateTime getStartAt(){
+        return this.startAt;
+    }
+
+    public LocalDateTime getEndAt(){
+        return this.endAt;
+    }
 }
